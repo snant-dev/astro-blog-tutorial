@@ -1,0 +1,24 @@
+---
+import Social from "./Social.astro";
+---
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+<footer>
+    <p>
+        ¡Más información sobre mis proyectos en <Social
+            platform="github"
+            username="snant-dev"
+        />!
+    </p>
+    <p>
+        <Social platform="twitter" username="astrodotbuild" />
+        <Social platform="github" username="withastro" />
+        <Social platform="youtube" username="astrodotbuild" />
+    </p>
+</footer>
